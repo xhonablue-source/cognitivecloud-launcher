@@ -125,10 +125,10 @@ apps = [
         "color": "#85C1E9"
     },
     {
-        "name": "🌀 Twisted Curves",
-        "description": "Advanced curve mathematics",
+        "name": "📊 Polynomial Zeros",
+        "description": "Explore polynomial functions and find their zeros/roots",
         "url": "https://mathcraft-twistedcurves.streamlit.app/",
-        "icon": "🌀",
+        "icon": "📊",
         "color": "#F8C471"
     },
     {
