@@ -59,70 +59,98 @@ st.markdown("""
 st.markdown('<h1 class="main-header">🧠 CognitiveCloud.ai App Launcher</h1>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Explore Xavier Honablue\'s interactive math apps - Choose your mathematical adventure!</p>', unsafe_allow_html=True)
 
-# App data with descriptions and direct links
+# App data with correct working URLs
 apps = [
     {
         "name": "📐 Algebra Rules",
         "description": "Master algebraic concepts and rules",
-        "url": "https://algebra1rules-main-algebra1rulespy.streamlit.app/",
+        "url": "https://mathcraft-algebrarules1.streamlit.app/",
         "icon": "📐",
         "color": "#FF6B6B"
     },
     {
         "name": "📊 Calculus",
         "description": "Explore derivatives, integrals, and limits",
-        "url": "https://calculus-main-apppy.streamlit.app/",
+        "url": "https://calculus.streamlit.app/",
         "icon": "📊",
         "color": "#4ECDC4"
     },
     {
         "name": "🔴 Conic Sections",
         "description": "Visualize circles, ellipses, parabolas & hyperbolas",
-        "url": "https://conicsections-main-apppy.streamlit.app/",
+        "url": "https://mathcraft-conicsections.streamlit.app/",
         "icon": "🔴",
         "color": "#45B7D1"
     },
     {
         "name": "🔢 Discrete Structures",
         "description": "Logic, sets, and combinatorics",
-        "url": "https://discretestructures-main-apppy.streamlit.app/",
+        "url": "https://mathcraft-discretestructures.streamlit.app/",
         "icon": "🔢",
         "color": "#96CEB4"
     },
     {
         "name": "📈 Distribution Curves",
         "description": "Statistical distributions and probability",
-        "url": "https://distributioncurves-main-apppy.streamlit.app/",
+        "url": "https://algebra1rules-q94clpmtxy8hzwvxs6jxwx.streamlit.app/",
         "icon": "📈",
         "color": "#FFEAA7"
     },
     {
         "name": "🍕 Fractions (Pizza Cutter)",
         "description": "Learn fractions with interactive pizza slices",
-        "url": "https://fractions-main-pizzacutterpy.streamlit.app/",
+        "url": "https://pizza-math.streamlit.app/",
         "icon": "🍕",
         "color": "#DDA0DD"
     },
     {
-        "name": "🧠 Growth Mindset",
-        "description": "Develop mathematical thinking skills",
-        "url": "https://growthmindset-main-apppy.streamlit.app/",
-        "icon": "🧠",
-        "color": "#98D8C8"
-    },
-    {
         "name": "⚡ Irrational Numbers",
         "description": "Explore pi, e, and other irrational numbers",
-        "url": "https://irrationalnumbers-main-irrationalnumberspy.streamlit.app/",
+        "url": "https://mathcraft-irrationalnumbers.streamlit.app/",
         "icon": "⚡",
         "color": "#F7DC6F"
     },
     {
-        "name": "🎮 MathCraft",
-        "description": "Gamified mathematics learning experience",
-        "url": "https://mathcraft-main-streamlitapppy.streamlit.app/",
-        "icon": "🎮",
+        "name": "🎯 Trigonometry",
+        "description": "Sine, cosine, tangent, and more",
+        "url": "https://mathcraft-trigonometry.streamlit.app/",
+        "icon": "🎯",
         "color": "#BB8FCE"
+    },
+    {
+        "name": "🔄 Particle Motion",
+        "description": "Physics and motion visualizations",
+        "url": "https://mathcraft-particlemotion.streamlit.app/",
+        "icon": "🔄",
+        "color": "#85C1E9"
+    },
+    {
+        "name": "🌀 Twisted Curves",
+        "description": "Advanced curve mathematics",
+        "url": "https://mathcraft-twistedcurves.streamlit.app/",
+        "icon": "🌀",
+        "color": "#F8C471"
+    },
+    {
+        "name": "✏️ Pencil Dashboard",
+        "description": "4th grade math lesson with surface area",
+        "url": "https://pencil-dashboard.streamlit.app/",
+        "icon": "✏️",
+        "color": "#82E0AA"
+    },
+    {
+        "name": "🔺 Tessellations",
+        "description": "Geometric pattern exploration",
+        "url": "https://mathcraft-tesselations.streamlit.app/",
+        "icon": "🔺",
+        "color": "#D7BDE2"
+    },
+    {
+        "name": "🚂 Train Motion",
+        "description": "Algebra with motion problems",
+        "url": "https://mathcraft-trainmotion.streamlit.app/",
+        "icon": "🚂",
+        "color": "#F9E79F"
     }
 ]
 
@@ -178,4 +206,4 @@ with col1:
 with col2:
     st.metric("👥 Grade Levels", "4-12")
 with col3:
-    st.metric("📚 Subject Areas", "9+")
+    st.metric("📚 Subject Areas", "13+")
